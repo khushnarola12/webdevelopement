@@ -1,0 +1,67 @@
+<html>
+    <head> </head>
+    <body>
+        <form action="/demo" method="get">
+            <fieldset>
+                <legend align="center">sign up</legend>
+                <label>User name</label>
+                <input type="text" maxlength="10" name="name" placeholder="Enter name">
+                <br>
+                <br>
+                <label>Password</label>
+                <input type="password" maxlength="8">
+                <br>
+                <br>
+                <label>Birth Date</label>
+                <input type="date">
+                <br>
+                <br>
+                <label>Email ID</label>
+                <input type="email">
+                <br>
+                <br>
+                <label>Gender</label>
+                <input type="radio" name="gen">Male
+                <input type="radio" name="gen" checked>Female
+                <br>
+                <br>
+                <label>Area of Interest</label>
+                <input type="checkbox" name="aoi"> DS
+                <input type="checkbox" name="aoi"> DBMS
+                <input type="checkbox" name="aoi" checked> FSD
+                <br>
+                <br>
+                <label>Department</label>
+                <select>
+                    <option value="" disabled hidden selected>--select Branch--</option>
+                    <optgroup label="CE">
+                        <option>IT</option>
+                        <option>CSIT</option>
+                        <option>CSI</option>
+                    </optgroup>
+                    <optgroup label="Mechanical">
+                        <option>Mech</option>
+                        <option>Automobile</option>
+                        <option>abc</option>
+                    </optgroup>
+                </select>
+                <br>
+                <br>
+                <label>Address</label>
+                <textarea rows="6" cols="30"> </textarea>
+                <br>
+                <br>
+                <label>Uplode C.V.</label>
+                <input type="file">
+                <br>
+                <br>
+                <label>Enter your image</label>
+                <img src="image.avif" height="50" width="50">
+                <br>
+                <br>
+                <input type="submit" value="clickme">
+                <input type="reset" value="Reseat">      
+            </fieldset>
+        </form>
+    </body>
+</html>

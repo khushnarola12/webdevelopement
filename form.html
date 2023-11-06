@@ -1,75 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-
-    </style>
+    <title>expanding cards</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <form action="/demo" method="get" class="form">
-        <fieldset>
-            <legend align="center">Sign up</legend>
-            <label class="nameu">Username</label>
-            <input class="nameu" type="text" maxlength="10" name="name" id="" placeholder="Enter your name">
-            <br> <br>
-            <label>password</label>
-            &nbsp; <input type="password" name="" id="" placeholder="Enter your password">
-            <br><br>
-            <label for="">Birthdate</label>
-            &nbsp; <input type="date" name="" id="">
-            <br><br>
-            <label for="">email id</label>
-            &nbsp; <input type="email" name="" id="" placeholder="Enter your Mail">
-            <br><br>
-            <label>Gender</label>
-            <input type="radio" name="Gender" id="male" value="male" checked>
-            <label>Male</label>
-            <input type="radio" name="Gender" id="female" value="female">
-            <label>Female</label>
-            <br><br>
-            <label>Area of Intrest</label>
-            <input type="checkbox" name="intrest" id="DS" value="DS">
-            <label for="">DS</label>
-            <input type="checkbox" name="intrest" id="DBMS" value="DBMS">
-            <label for="">DBMS</label>
-            <input type="checkbox" name="intrest" id="FSD" value="FSD">
-            <label for="">FSD</label>
-            <br><br>
-            <label>Department</label>
-            <select name="" id="">
-                <option value="" disabled hidden selected>--select branch--</option>
-                <optgroup label="CE">
-                    <option value="">IT</option>
-                    <option>CSIT</option>
-                    <option">CSI</option>
-                </optgroup>
+    <div class="container">
+        <div class="panel_active")>
+        </div>
 
-                <OPtgroup label="Mechanical">
-                    <option>Mechani</option>
-                    <option>auto</option>
-                    <option>Mechatronic</option>
-                </OPtgroup>
-            </select>
-            <br><br>
-            <label>Adresss</label>
-            <textarea name="address" id="" cols="30" rows="5"></textarea>
-            <br><br>
-            <label for="">Upload file</label>
-            <input type="file">
-            <br><br>
-            <input type="submit" value="Click me">
-            <input type="reset" name="" id="" value="reset">
-            <br><br>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqE3ib82c68YgzDmztEgooI7_UixG9KQU1cdEYi__wguJNoaIf5ANDbaYpUu3h2Ji3wA8&usqp=CAU"
-                alt="">
+        <div class="panel"style="background-image:url('https://www.w3schools.com/w3css/img_mountains.jpg')">
+            <h3>Explore The World</h3>
+        </div>
 
-        </fieldset>
-    </form>
+ 
+        <div class="panel" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREYnP2qWd35wavH1UB-Vv25JeX6F_UBy_MHlcI05qDUM6vP_AD9kVcz6qtO3tIFCq3SnM&usqp=CAU');">
+            <h3>Wild Forest</h3>
+        </div>
+
+        <div class="panel" style="background-image: url('https://as1.ftcdn.net/v2/jpg/02/99/72/12/1000_F_299721298_CKvsIwdokf11a69xbFPmrjisa30w6y38.jpg');">
+            <h3>Sunny Beach</h3>
+        </div>
+
+        <div class="panel" style="background-image: url('https://www.telegraph.co.uk/content/dam/Travel/2019/December/winter-prague.jpg?imwidth=680 ');">
+            <h3>City On Winter</h3>
+         </div>
+
+        <div class="panel" style="background-image: url('https://cdn.wallpapersafari.com/88/58/cxXJf0.jpg');">
+           <h3>Mountains-Clouds</h3>
+        </div>
+
+
+    </div>
+  
+    
+    <script src="script.js"></script>
 </body>
-
 </html>
