@@ -1,0 +1,61 @@
+<!-- WRITE A FORM TO COLLECT A DETAILS FROM USER SUCzH AS NAME,PASSWORD,ADDRESS,RADIO BUTTON TO CHOOSE SUBJHECT OF BOOK HE WANTS TO BUY ,DROPDOWN TO CHOOSE FAVOURITE AUTHOR BY PROVIDING FAVOURITE ,CATOGARITES NOVEL COMIC STOORY BOOK, -->
+<!-- GIVE TITLE TO FORM,SUBMIT AND RESET BUTTON -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .btn {
+            background-color: rgb(16, 5, 218);
+            color: white;
+            border-radius: 10px;
+
+        }
+
+        .btn:hover {
+            background-color: black;
+            color: whitesmoke;
+            cursor: pointer;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <form action="/demo" method="get" class="form">
+        <fieldset>
+            <legend>Form</legend>
+            <label for="">Name</label>
+            <input type="text" name="name" placeholder="Enter your name" id=""><br><br>
+            <lAbel>Password</lAbel>
+            <input type="password" placeholder="Enter Your Password"><br><br>
+            <label for="">Address</label>
+            <textarea name="" id="" cols="30" rows="5"></textarea><br><br>
+            <label for="">Subject</label>
+            <input type="radio" name="Gender" id="">Novel
+            <input type="radio" name="Gender" checked>Storybook
+            <input type="radio" name="Gender">Comic
+            <br><br><label for="">Select your author</label>
+            <select name="" id="">
+                <option value="">--select--</option>
+                <option value="">khush narola</option>
+                <option value="">zakir hussain</option>
+                <option value="">moye moye</option>
+            </select><br><br>
+            <input type="submit" class="btn" name="btn" id="">
+            <input type="reset" name="" id=""><br><br>
+            <label for="">Comments</label>
+            <textarea name="" id="" cols="20" rows="3"></textarea>
+        </fieldset>
+
+
+
+    </form>
+</body>
+
+</html>
