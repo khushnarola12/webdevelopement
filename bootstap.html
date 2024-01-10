@@ -4,16 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <title>Document</title>
+    
+
+
 </head>
 
 <body>
-    <div class="container">
+    <div>
         <!-- <h1>Normal heading</h1>
         <h1 class="display-1">Display1</h1>
         <h1 class="display-2">Display2</h2>
@@ -25,23 +25,236 @@
         <p class="text-uppercase">fsfedff</p>
         <p class="text-lowercase">ggfdgdg</p>
         <p class="font-weight-bold">wggfghdgsdf</p>
-        <p class="font-weight-light">fdssss</p> -->
-        <!-- <abbr title="here you we go" class="intialism" style="cursor: pointer; text-decoration: none; transition: 1s;">hywg</abbr> 
+        <p class="font-weight-light">fdssss</p>
+     <abbr title="here you we go" class="intialism" style="cursor: pointer; text-decoration: none; transition: 1s;">hywg</abbr> 
         <blockquote class="blockquote">
             <p>you will to be change that you want to see in world</p>
             <footer class="blockquote-footer text-right">Mahatama gandhi</footer>  
-        </blockquote> -->
+        </blockquote>
 
-        <!-- <p class="text-primary">khush</p>
+        <p class="text-primary">khush</p>
         <p style="color:antiquewhite "></p>
-        <p class="text-black">gsdgsdf</p> -->
+        <p class="text-black">gsdgsdf</p>
 
-        <ul class="list-unstyled">
-            <li>BLue</li>
-            <li> Pink</li>
-        </ul>
+        <div class="row">
+            <div class="col-lg-6 bg-primary">50%</div>
+            <div class="col-lg-6 bg-success">50%</div>
+        </div><br>
+        <div class="row">
+            <div class="col-md-4 bg-primary" >
+              <div class="khu">A</div></div>
+            <div class="col-md-4 bg-secondary">B</div>
+            <div class="col-md-4 bg-success">C</div>
+        </div>
+
+
+        <img src="./images.jfif" class="rounded "  alt="">
+        <img src="./images.jfif" class="rounded-circle float-left" height="200px" width="200px" alt="">
+        <img src="./images.jfif" class="img-thumbnail" alt="">
+
+        <div class="cotainer">
+            <div class="alert alert-success alert-dismissible">
+                <strong>Success!</strong>Its great
+                <button class="close" data-dismiss="alert">&times;</button>
+            </div>
+        </div>  
+
+
+        <div class="spinner-border"></div>&nbsp;&nbsp;
+           <div class="spinner-border text-success"></div>&nbsp;&nbsp;
+          <div class="spinner-grow text-info"></div> &nbsp;&nbsp;
+           <div class="spinner-border spinner-border-sm text-success" ></div>&nbsp;&nbsp;
+
+        <button type="button" class="btn">basic</button>
+           <button type="button" class="btn btn-primary active">primary</button>
+           <button type="button" class="btn btn-outline-primary active">outlineprimar</button> 
+           <button type="button" class="btn btn-primary btn-sm">sm primary</button>
+        <button class="btn btn-primary">
+            <span class="spinner-border"></span>
+          loading...  
+           </button>
+           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero nesciunt nemo placeat? Blanditiis ab autem voluptates qui optio expedita, ad facere, quia aspernatur ipsum iste beatae doloribus aut, sed quo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quasi ea recusandae beatae. Aspernatur ipsa quaerat ratione eligendi aliquid pariatur harum, aut voluptate? Deleniti consectetur quam eum, cum laudantium voluptatibus!</p>
+
+        <div id="accordian">
+            <div class="card">
+                <div class="caard-header">
+                    <a href="#collapseone" class="card-link" data-toggle="collapse">item1</a>
+                </div>
+                <div class="collapse-show" id="collapseone" data-parent="#accordian">
+                    <div class="card-body">content1</div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="caard-header">
+                    <a href="#collapsetwo" class="card-link" data-toggle="collapse">item2</a>
+                </div>
+                <div class="collapse-show" id="collapsetwo" data-parent="#accordian">
+                    <div class="card-body">content2</div>
+                </div>
+            </div>
+           </div>
+
+        <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">Card title</h4>
+              <p class="card-text">Some example text. Some example text.</p>
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+          </div>
+
+        <div class="card" style="width:400px">
+            <img class="card-img-top" src="./images.jfif" alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title">John Doe</h4>
+                <p class="card-text">Some example text.</p>
+                <a href="#" class="btn btn-primary">See Profile</a>
+            </div>
+        </div>
+
+        <div class="card" style="width:500px">
+            <img class="card-img-top" src="./images.jfif" alt="Card image">
+            <div class="card-img-overlay">
+                <h4 class="card-title">John Doe</h4>
+                <p class="card-text">Some example text.</p>
+                <a href="#" class="btn btn-primary">See Profile</a>
+            </div>
+        </div>
+        <div class="container">
+            <ul class="nav flex-column">
+                <a href="#" class="nav-link" >Home</a>
+                <a href="#" class="nav-link">About</a>
+                <a href="#" class="nav-link">Content</a>
+            </ul>
+        </div>
+
+        <div class="container">
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a href="#demo1" class="nav-link " data-bs-toggle="tab">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#demo2" class="nav-link active " data-bs-toggle="tab">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#demo3" class="nav-link " data-bs-toggle="tab">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="tab-content">
+            <div id="demo1" class="container tab-pane ">
+                <h3>Home</h3>
+                <p>this is home page</p>
+            </div>
+            <div id="demo2" class="container tab-pane active">
+                <h3>about</h3>
+                <p>this is abiout</p>
+            </div>
+
+            <div id="demo3" class="container tab-pane">
+                <h3>contact</h3>
+                <p>this is abiout</p>
+            </div>
+        </div>
+        <ul class="nav nav-tabs">
+            <li class="nav-item"><a href="#" class=" nav-link active">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#" class="dropdown-item">Adress</a></li>
+                    <li><a href="#" class="dropdown-item">Phone number</a></li>
+                </ul></li>
+            <li class="nav-item"><a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Contact</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#" class="dropdown-item">Adress</a></li>
+                    <li><a href="#" class="dropdown-item">Phone number</a></li>
+                </ul>
+            </li>
+         </ul> 
+
+         <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <ul class="navbar-nav">
+                    <li class="navbar-item"><a href="#" class="nav-link">Homne</a></li>
+                    <li class="navbar-item"><a href="#" class="nav-link">About</a></li>
+                    <li class="navbar-item"><a href="#" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+         </nav>
+
+         <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <div class="container-fluid">
+                <div class="navbar-nav">
+                    <li class="navbar-brand">
+                        <img src="./images.jfif" width="30px" height="30px" class="rounded-pill" alt="">
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                </div>
+
+         <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#link" height="30px" width="30px">
+                    <img src="./images.jfif" height="30px" width="30px" alt="">
+                </button>
+                <div class="collapse navbar-collapse" id="link">
+                    <ul>
+                        <li class="nav-item"><a href="#"class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item"><a href="#" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item"><a href="#" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                    
+                </div>
+                <i class="fi fi-brands-instagram"></i>
+
+            <ul>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Contact</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#" class="dropdown-item">Address</a></li>
+                        <li><a href="#" class="dropdown-item">number</a></li>
+
+                        
+                    </ul>
+                </li>
+            </ul>
+            </div>
+
+         </nav>
+            </div>
+         </nav>
+
+
+
 
     </div>
+    <div class="carousel slide" id="demo" data-bs-ride="carousel" style="transition:du">
+        <div class="carousel-indicators">
+            <button data-bs-target="#demo" data-bs-slide-to="0" class="active bg-warming"></button>
+            <button data-bs-target="#demo" data-bs-slide-to="1" class=" bg-warming"></button>
+            <button data-bs-target="#demo" data-bs-slide-to="2" class=" bg-warming"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active"><img src="./images.jfif" height="600px" width="100%" alt=""></div>
+            <div class="carousel-item "><img src="./download.jfif" height="600px" width="100%" alt=""></div>
+            <div class="carousel-item "><img src="./download (2).jfif" height="600px" width="100%" alt=""></div>
+        </div>
+        <button class="carousel-control-prev" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>-->
+
+    </div>
+
 </body>
 
 </html>
